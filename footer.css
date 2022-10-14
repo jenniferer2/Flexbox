@@ -1,11 +1,19 @@
 
 body {
+  display: flex; 
+  flex-direction: column;
+  min-height: 100vh; 
   margin: 0px;
+
 }
 
 .footer {
   height: 150px;
   background-color: lightgrey;
+  display: flex;
+  margin-top: auto; 
+ 
+  
 }
 
 .title {
@@ -14,6 +22,7 @@ body {
 }
 
 .info {
+
   font-size: 10px;
 }
 
@@ -21,4 +30,5 @@ body {
   padding: 10px;
   width: 150px;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+  flex-grow: 1;
 }

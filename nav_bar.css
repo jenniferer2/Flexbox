@@ -7,10 +7,12 @@ body{
   height: 60px;
   width: 100%;
   background-color: lightgrey;
+  display: flex; 
 }
 
 .item {
   margin: 10px;
+ 
 }
 
 #circle {

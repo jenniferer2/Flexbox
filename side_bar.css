@@ -7,9 +7,12 @@ body{
   background-color: lightgrey;
   height: 100vh;
   padding-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .item {
   font-weight: bold;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+  flex-grow: 4;
 }
